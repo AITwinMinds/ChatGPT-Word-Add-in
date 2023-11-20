@@ -15,5 +15,8 @@ Welcome to the ChatGPT Word Add-in—an exciting enhancement for Microsoft Offic
 
 Experience the next level of productivity and creativity with the ChatGPT Word Add-in—your go-to tool for effortless and enhanced document handling!
 
+![image](https://github.com/I-A-Team/ChatGPT-Word-Add-in/assets/100919352/758e0ad0-a904-4a15-a9e6-708b7f7ed543)
+
+
 # Installation
 
