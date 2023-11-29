@@ -55,5 +55,3 @@ End Sub
 Save the changes to the Normal.dotm file.
 
 **Installation Complete**
-
-Now, when users run Word, the ChatGPT add-in will automatically load from the specified location, enhancing their Word experience.
