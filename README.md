@@ -39,18 +39,14 @@ Experience the next level of productivity and creativity with the ChatGPT Word A
 * Locate and open the file named Normal.dotm.
 
 **Step 4**: Access the VBA Editor
-In Word, press Alt + F11 to open the Visual Basic for Applications (VBA) editor.
+* In Word, press Alt + F11 to open the Visual Basic for Applications (VBA) editor.
+* In the left pane, find and select "Normal" under "Microsoft Word Objects."
+* If a module already exists, double-click on it to open; otherwise, right-click on "Normal" and choose "Insert" > "Module."
 
-In the left pane, find and select "Normal" under "Microsoft Word Objects."
-
-If a module already exists, double-click on it to open; otherwise, right-click on "Normal" and choose "Insert" > "Module."
-
-Step 5: Write and Save the Macro
-In the code window, paste the following macro:
+**Step 5**: Write and Save the Macro
+* In the code window, paste the following macro:
+'''
 Sub AutoExec()
-'
-' AutoExec Macro
-'
-' Load ChatGPT add-in from %APPDATA%\Microsoft\Word\Startup folder
     AddIns.Add FileName:=Environ("AppData") & "\Microsoft\Word\Startup\ChatGPT.dotm", Install:=True
 End Sub
+'''
