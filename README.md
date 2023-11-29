@@ -2,11 +2,11 @@
 Welcome to the ChatGPT Word Add-in—an exciting enhancement for Microsoft Office Word on your Windows desktop! Our add-in leverages the powerful ChatGPT (GPT-3.5 Turbo model) to elevate your Word experience with six key functionalities:
 
 1- **Rephrase Selection**: Give your text a fresh spin with just a click. You can select among five rephrase options:
--Simplify
--Generalize
--Informal
--Formal
--Professional
+* Simplify
+* Generalize
+* Informal
+* Formal
+* Professional
 
 2- **Custom Prompts**: Craft your own queries and get insightful responses.
 
