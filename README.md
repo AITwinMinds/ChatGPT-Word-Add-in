@@ -55,3 +55,37 @@ End Sub
 Save the changes to the Normal.dotm file.
 
 **Installation Complete**
+
+## Video Guide on YouTube
+
+Learn how to use the ChatGPT Interface effectively by watching our upcoming video guide on YouTube. The guide will cover topics such as prompt selection, language translation, clipboard integration, and more.
+
+[Subscribe to our YouTube Channel](https://www.youtube.com/@AITwinMinds) for the latest updates and tutorials on ChatGPT Interface. Stay tuned for the upcoming video guide!
+
+## Contributions
+
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the functionality or fix any issues.
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
+
+## Support Us
+
+This app is completely free! If you find it helpful, consider supporting us in the following ways:
+
+- ⭐ Star this repository on [GitHub](https://github.com/AITwinMinds/ChatGPT-UI).
+
+- 📸 Follow us on Instagram: [@AITwinMinds](https://www.instagram.com/AITwinMinds)
+  
+- 🐦 Follow us on X (Twitter): [@AITwinMinds](https://twitter.com/AITwinMinds)
+
+- 🎥 Subscribe to our YouTube Channel: [AITwinMinds](https://www.youtube.com/@AITwinMinds) for video tutorials and updates.
+
+- 📣 Join our Telegram Channel: [AITwinMinds](https://t.me/AITwinMinds) for discussions and announcements.
+
+Don't forget to provide feedback by commenting on the repository and help us make it better. Share it with your friends and let them benefit from this tool, too!
+
+## Contact
+
+For any inquiries, please contact us at [AITwinMinds@gmail.com](mailto:AITwinMinds@gmail.com).
