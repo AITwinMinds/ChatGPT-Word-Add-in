@@ -60,7 +60,13 @@ Save the changes to the Normal.dotm file.
 
 Learn how to use the ChatGPT Interface effectively by watching our upcoming video guide on YouTube. The guide will cover topics such as prompt selection, language translation, clipboard integration, and more.
 
-[Subscribe to our YouTube Channel](https://www.youtube.com/@AITwinMinds) for the latest updates and tutorials on ChatGPT Interface. Stay tuned for the upcoming video guide!
+
+
+https://github.com/AITwinMinds/ChatGPT-Word-Add-in/assets/100919352/58ae78f0-30ec-46a8-9580-9c99af4200b2
+
+
+
+[Subscribe to our YouTube Channel](https://www.youtube.com/@AITwinMinds) for the latest updates and tutorials. 
 
 ## Contributions
 
