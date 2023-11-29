@@ -1,5 +1,8 @@
 # ChatGPT-Word-Add-in
 Welcome to the ChatGPT Word Add-in—an exciting enhancement for Microsoft Office Word on your Windows desktop! 🎉🎉
+
+![image](https://github.com/AITwinMinds/ChatGPT-Word-Add-in/assets/100919352/9e982fd1-9787-45ab-aa53-e805ad79a0c8)
+
 Our add-in leverages the powerful ChatGPT (GPT-3.5 Turbo model) to elevate your Word experience with six key functionalities:
 
 1- **Rephrase selection**: Give your text a fresh spin with just a click. You can select among five rephrase options:
@@ -8,6 +11,8 @@ Our add-in leverages the powerful ChatGPT (GPT-3.5 Turbo model) to elevate your 
 * **Informal**: Infuse a casual and friendly tone.
 * **Formal**: Elevate your writing with a polished touch.
 * **Professional**: Craft your content for a business-ready presentation.
+![image](https://github.com/AITwinMinds/ChatGPT-Word-Add-in/assets/100919352/8f826572-defb-4ab9-8fcc-7cfd640c8184)
+
 
 2- **Custom prompts**: Craft your own queries and get insightful responses.
 
@@ -20,9 +25,6 @@ Our add-in leverages the powerful ChatGPT (GPT-3.5 Turbo model) to elevate your 
 6- **Translate text**: Break language barriers by translating selected text seamlessly.
 
 Experience the next level of productivity and creativity with the ChatGPT Word Add-in—your go-to tool for effortless and enhanced document handling!
-
-![image](https://github.com/AITwinMinds/ChatGPT-Word-Add-in/assets/100919352/9e982fd1-9787-45ab-aa53-e805ad79a0c8)
-
 
 
 # Installation
@@ -51,3 +53,8 @@ Sub AutoExec()
     AddIns.Add FileName:=Environ("AppData") & "\Microsoft\Word\Startup\ChatGPT.dotm", Install:=True
 End Sub
 ```
+Save the changes to the Normal.dotm file.
+
+**Installation Complete**
+
+Now, when users run Word, the ChatGPT add-in will automatically load from the specified location, enhancing their Word experience.
