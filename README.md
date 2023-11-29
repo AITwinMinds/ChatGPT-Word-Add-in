@@ -74,7 +74,7 @@ This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
 This app is completely free! If you find it helpful, consider supporting us in the following ways:
 
-- ⭐ Star this repository on [GitHub](https://github.com/AITwinMinds/ChatGPT-UI).
+- ⭐ Star this repository on [GitHub](https://github.com/AITwinMinds/ChatGPT-Word-Add-in).
 
 - 📸 Follow us on Instagram: [@AITwinMinds](https://www.instagram.com/AITwinMinds)
   
