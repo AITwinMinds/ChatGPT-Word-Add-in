@@ -49,7 +49,7 @@ Experience the next level of productivity and creativity with the ChatGPT Word A
 
 ```{r test-python, engine='python'}
 Sub AutoExec()
-    AddIns.Add FileName:=Environ("AppData") & "\Microsoft\Word\Startup\ChatGPT.dotm", Install:=True
+    AddIns.Add FileName:=Environ("AppData") & "\Microsoft\Word\Startup\ChatGPT_Word.dotm", Install:=True
 End Sub
 ```
 Save the changes to the Normal.dotm file.
