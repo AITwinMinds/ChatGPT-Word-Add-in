@@ -45,8 +45,9 @@ Experience the next level of productivity and creativity with the ChatGPT Word A
 
 **Step 5**: Write and Save the Macro
 * In the code window, paste the following macro:
-'''python 
+
+```{r test-python, engine='python'}
 Sub AutoExec()
     AddIns.Add FileName:=Environ("AppData") & "\Microsoft\Word\Startup\ChatGPT.dotm", Install:=True
 End Sub
-'''
+```
