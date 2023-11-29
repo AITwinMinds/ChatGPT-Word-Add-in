@@ -11,6 +11,7 @@ Our add-in leverages the powerful ChatGPT (GPT-3.5 Turbo model) to elevate your 
 * **Informal**: Infuse a casual and friendly tone.
 * **Formal**: Elevate your writing with a polished touch.
 * **Professional**: Craft your content for a business-ready presentation.
+
 ![image](https://github.com/AITwinMinds/ChatGPT-Word-Add-in/assets/100919352/8f826572-defb-4ab9-8fcc-7cfd640c8184)
 
 
