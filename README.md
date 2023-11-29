@@ -1,22 +1,23 @@
 # ChatGPT-Word-Add-in
-Welcome to the ChatGPT Word Add-in—an exciting enhancement for Microsoft Office Word on your Windows desktop! Our add-in leverages the powerful ChatGPT (GPT-3.5 Turbo model) to elevate your Word experience with six key functionalities:
+Welcome to the ChatGPT Word Add-in—an exciting enhancement for Microsoft Office Word on your Windows desktop! 🎉🎉
+Our add-in leverages the powerful ChatGPT (GPT-3.5 Turbo model) to elevate your Word experience with six key functionalities:
 
-1- **Rephrase Selection**: Give your text a fresh spin with just a click. You can select among five rephrase options:
+1- **Rephrase selection**: Give your text a fresh spin with just a click. You can select among five rephrase options:
 * **Simplify**: Streamline your text for clarity.
 * **Generalize**: Broaden the scope of your language.
 * **Informal**: Infuse a casual and friendly tone.
 * **Formal**: Elevate your writing with a polished touch.
 * **Professional**: Craft your content for a business-ready presentation.
 
-2- **Custom Prompts**: Craft your own queries and get insightful responses.
+2- **Custom prompts**: Craft your own queries and get insightful responses.
 
-3- **Email Replies**: Streamline your email communication by generating quick and effective responses.
+3- **Email replies**: Streamline your email communication by generating quick and effective responses.
 
-4- **Summarize Text**: Condense lengthy content without losing the essence.
+4- **Summarize text**: Condense lengthy content without losing the essence.
 
-5- **Explain Text**: Demystify complex passages with clear and concise explanations.
+5- **Explain text**: Demystify complex passages with clear and concise explanations.
 
-6- **Translate Text**: Break language barriers by translating selected text seamlessly.
+6- **Translate text**: Break language barriers by translating selected text seamlessly.
 
 Experience the next level of productivity and creativity with the ChatGPT Word Add-in—your go-to tool for effortless and enhanced document handling!
 
@@ -25,4 +26,31 @@ Experience the next level of productivity and creativity with the ChatGPT Word A
 
 
 # Installation
+**Step 1**: Locate the Word Startup Folder
+* Open File Explorer and navigate to Drive C.
+* In the address bar, type %APPDATA%\Microsoft\Word and press Enter.
+* Check if the "Startup" folder exists. If not, create a new folder named "Startup."
 
+**Step 2**: Copy the Add-in File
+* Copy the ChatGPT.dotm file to the "Startup" folder you just located.
+
+**Step 3**: Open the Normal.dotm Template
+* In Drive C, navigate to %AppData%\Microsoft\Templates\.
+* Locate and open the file named Normal.dotm.
+
+**Step 4**: Access the VBA Editor
+In Word, press Alt + F11 to open the Visual Basic for Applications (VBA) editor.
+
+In the left pane, find and select "Normal" under "Microsoft Word Objects."
+
+If a module already exists, double-click on it to open; otherwise, right-click on "Normal" and choose "Insert" > "Module."
+
+Step 5: Write and Save the Macro
+In the code window, paste the following macro:
+Sub AutoExec()
+'
+' AutoExec Macro
+'
+' Load ChatGPT add-in from %APPDATA%\Microsoft\Word\Startup folder
+    AddIns.Add FileName:=Environ("AppData") & "\Microsoft\Word\Startup\ChatGPT.dotm", Install:=True
+End Sub
